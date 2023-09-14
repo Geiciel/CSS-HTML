@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box em ação</title>
+    <style>
+        body {
+            background-color: #6e6e6e;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            color: lime;
+        }
+
+        nav {
+            background-color: #7a7a7a;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px #0000007e;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #33ff00;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 3px 7px 1px #0000005d;
+        }
+
+        section > p {
+            color: #000000;
+        }
+
+        article {
+            background-color: #242424;
+            padding: 5px;
+        }
+
+        article > p {
+            color: #ffffff;
+        }
+
+        article > h1 {
+            color: lime;
+        }
+
+        article>aside {
+            background-color: #fffb00;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola{
+            width: 100px;
+            height: 100px;
+            background-color: lime;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas tempora dicta recusandae
+                repellendus ducimus itaque. Quidem tempora hic repellendus a? Eveniet laborum similique impedit
+                molestias recusandae provident delectus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus quod incidunt nulla molestias velit ratione voluptatum consequuntur at corporis ipsa iure eos
+                magni, modi autem esse dolorem ex, iusto tempore.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Notícias do Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea perspiciatis porro est delectus
+                    temporibus et rem molestiae commodi saepe harum, animi voluptas ipsum error assumenda quaerat
+                    officiis debitis. Placeat, fugiat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                    laboriosam qui quisquam minima nobis nesciunt quibusdam placeat, eos quod quam cumque animi
+                    perspiciatis repellendus corrupti, deserunt id veritatis. Eligendi, vero.</p>
+                <aside>
+                    <p>Meu nome</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Asinatuda do criador</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>vamos colocar fotos de diferentes tamanhos</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio src="midia/Dxrk ダーク - RAVE _ slowed reverb(M4A_128K).m4a" controls autoplay></audio>
+    <audio src="midia/POOR(M4A_128K).m4a" controls></audio>
+    <audio src="midia/TIRED OF PROBLEMS(M4A_128K).m4a" controls></audio>
+    <h1>Outra mainera decolocar</h1>
+    <audio controls>
+        <source src="midia/TIRED OF PROBLEMS(M4A_128K).m4a" type="audio/mp4">
+    </audio>
+</body>
+</html>

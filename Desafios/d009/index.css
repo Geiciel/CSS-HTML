@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+h1{
+    color: lime;
+    text-align: center;
+}
+button{
+    width: 195px;
+   height: 30px;
+   background-color: lime;
+   font-size: 20px;
+}
