@@ -15,17 +15,16 @@
 }
 
 #burguer {
-    background-color: rgb(48, 48, 48 );
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    margin-left: 90%;
 }
 
 #burguer:hover {
-    background-color: #444444;
-    color: black;
+    background-color: #7a7a7a;
 }
 
 body, html {
